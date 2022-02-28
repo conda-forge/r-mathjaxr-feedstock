@@ -1,4 +1,4 @@
-{% set version = "1.4-0" %}
+{% set version = "1.6-0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mathjaxr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mathjaxr/mathjaxr_{{ version }}.tar.gz
-  sha256: ba57378236d593a39c5839054adc5473526de0c8f05b7eeb87c99438496ddc67
+  sha256: ecc47607111b788d84789459af7f4f9102719f98640b7a23bd5a4eb1a6d3c179
 
 build:
   merge_build_host: true  # [win]
