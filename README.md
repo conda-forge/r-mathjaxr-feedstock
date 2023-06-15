@@ -1,11 +1,11 @@
-About r-mathjaxr
-================
+About r-mathjaxr-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mathjaxr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/wviechtb/mathjaxr
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mathjaxr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides 'MathJax' and macros to enable its use within Rd files for rendering equations in the HTML help files.
 
